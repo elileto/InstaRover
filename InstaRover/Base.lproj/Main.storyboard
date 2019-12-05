@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Tpo-VN-2DD">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Photos-->
+        <scene sceneID="ifg-cm-Wgz">
+            <objects>
+                <tableViewController id="Syb-9Y-F6I" customClass="PhotosTableViewController" customModule="InstaRover" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="414" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="cxH-bY-wGG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" placeholder="Rover" id="aLR-3a-HHl">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="414" id="l9Q-S7-Cjy" userLabel="Cell" customClass="RoverTableViewCell" customModule="InstaRover" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="72" width="414" height="414"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="l9Q-S7-Cjy" id="dg6-vU-4Vl">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="414"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gdn-VB-fnP">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="394"/>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="gdn-VB-fnP" firstAttribute="leading" secondItem="dg6-vU-4Vl" secondAttribute="leading" id="4uS-yF-ZOA"/>
+                                        <constraint firstItem="gdn-VB-fnP" firstAttribute="top" secondItem="dg6-vU-4Vl" secondAttribute="top" id="5tI-o5-jSP"/>
+                                        <constraint firstAttribute="bottom" secondItem="gdn-VB-fnP" secondAttribute="bottom" id="JyC-AN-w5l"/>
+                                        <constraint firstAttribute="bottom" secondItem="gdn-VB-fnP" secondAttribute="bottom" constant="20" id="aGL-Ar-22l"/>
+                                        <constraint firstAttribute="trailing" secondItem="gdn-VB-fnP" secondAttribute="trailing" id="uLH-KF-XK1"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="roverImage" destination="gdn-VB-fnP" id="bUr-BH-Qs4"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Syb-9Y-F6I" id="Oad-Tn-kk9"/>
+                            <outlet property="delegate" destination="Syb-9Y-F6I" id="via-sb-Dam"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Photos" id="NPs-Pc-Bj8"/>
+                    <connections>
+                        <outlet property="searchBar" destination="aLR-3a-HHl" id="tDB-F8-012"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e8R-eX-Ufj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="679.71014492753625" y="86.383928571428569"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="4Tt-N9-FLs">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Tpo-VN-2DD" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="NVQ-2B-3Zs">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Syb-9Y-F6I" kind="relationship" relationship="rootViewController" id="CKv-Rn-W7L"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y4c-JP-8BK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-409" y="86"/>
+        </scene>
+    </scenes>
+</document>

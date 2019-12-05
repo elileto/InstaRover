@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D11098123996A220053C86D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A6219A2284779200127CD4 /* Main.storyboard */; };
+		1D6000A12394733300E63552 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6000A02394733300E63552 /* Photo.swift */; };
+		1D6000A52394753C00E63552 /* PhotoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6000A42394753C00E63552 /* PhotoRequest.swift */; };
+		1D6000A72394794B00E63552 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D6000A62394794B00E63552 /* Default-568h@2x.png */; };
+		1D6000A82394848500E63552 /* PhotosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6000A22394740600E63552 /* PhotosTableViewController.swift */; };
+		1D6000A9239484CC00E63552 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A621962284779200127CD4 /* AppDelegate.swift */; };
+		1D6000AB2396063200E63552 /* placeholderImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D6000AA2396063200E63552 /* placeholderImage.jpg */; };
+		52A6219E2284779300127CD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A6219D2284779300127CD4 /* Assets.xcassets */; };
+		52A621A12284779300127CD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A6219F2284779300127CD4 /* LaunchScreen.storyboard */; };
+		C3F0B9251D4F7CB7260A67B2 /* Pods_HolidayCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1352B34D0385424AD59F2710 /* Pods_HolidayCalendar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1352B34D0385424AD59F2710 /* Pods_HolidayCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HolidayCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D1FB562D6F74F0095919982 /* Pods-HolidayCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HolidayCalendar.debug.xcconfig"; path = "Target Support Files/Pods-HolidayCalendar/Pods-HolidayCalendar.debug.xcconfig"; sourceTree = "<group>"; };
+		1D6000A02394733300E63552 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		1D6000A22394740600E63552 /* PhotosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosTableViewController.swift; sourceTree = "<group>"; };
+		1D6000A42394753C00E63552 /* PhotoRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRequest.swift; sourceTree = "<group>"; };
+		1D6000A62394794B00E63552 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1D6000AA2396063200E63552 /* placeholderImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = placeholderImage.jpg; path = Assets.xcassets/placeholderImage.jpg; sourceTree = "<group>"; };
+		52A621932284779200127CD4 /* InstaRover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaRover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A621962284779200127CD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52A6219B2284779200127CD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52A6219D2284779300127CD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52A621A02284779300127CD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52A621A22284779300127CD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		591884CC2AB4C3F9B4BE52A5 /* Pods-HolidayCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HolidayCalendar.release.xcconfig"; path = "Target Support Files/Pods-HolidayCalendar/Pods-HolidayCalendar.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52A621902284779200127CD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F0B9251D4F7CB7260A67B2 /* Pods_HolidayCalendar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04303724DE395A4B4643943B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D1FB562D6F74F0095919982 /* Pods-HolidayCalendar.debug.xcconfig */,
+				591884CC2AB4C3F9B4BE52A5 /* Pods-HolidayCalendar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		52A6218A2284779200127CD4 = {
+			isa = PBXGroup;
+			children = (
+				1D6000A62394794B00E63552 /* Default-568h@2x.png */,
+				52A621952284779200127CD4 /* InstaRover */,
+				52A621942284779200127CD4 /* Products */,
+				04303724DE395A4B4643943B /* Pods */,
+				B0E3AAC19C3F4E1F0B44D668 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52A621942284779200127CD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52A621932284779200127CD4 /* InstaRover.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52A621952284779200127CD4 /* InstaRover */ = {
+			isa = PBXGroup;
+			children = (
+				52A621962284779200127CD4 /* AppDelegate.swift */,
+				1D6000A22394740600E63552 /* PhotosTableViewController.swift */,
+				52A6219A2284779200127CD4 /* Main.storyboard */,
+				52A6219D2284779300127CD4 /* Assets.xcassets */,
+				1D6000AA2396063200E63552 /* placeholderImage.jpg */,
+				52A6219F2284779300127CD4 /* LaunchScreen.storyboard */,
+				52A621A22284779300127CD4 /* Info.plist */,
+				1D6000A02394733300E63552 /* Photo.swift */,
+				1D6000A42394753C00E63552 /* PhotoRequest.swift */,
+			);
+			path = InstaRover;
+			sourceTree = "<group>";
+		};
+		B0E3AAC19C3F4E1F0B44D668 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1352B34D0385424AD59F2710 /* Pods_HolidayCalendar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52A621922284779200127CD4 /* HolidayCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A621A52284779300127CD4 /* Build configuration list for PBXNativeTarget "HolidayCalendar" */;
+			buildPhases = (
+				14B80BF206167AD2E34C1E0F /* [CP] Check Pods Manifest.lock */,
+				52A6218F2284779200127CD4 /* Sources */,
+				52A621902284779200127CD4 /* Frameworks */,
+				52A621912284779200127CD4 /* Resources */,
+				0182D491AABD37A40EF63D0A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HolidayCalendar;
+			productName = HolidayCalendar;
+			productReference = 52A621932284779200127CD4 /* InstaRover.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52A6218B2284779200127CD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Brian Advent";
+				TargetAttributes = {
+					52A621922284779200127CD4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 52A6218E2284779200127CD4 /* Build configuration list for PBXProject "InstaRover" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52A6218A2284779200127CD4;
+			productRefGroup = 52A621942284779200127CD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52A621922284779200127CD4 /* HolidayCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52A621912284779200127CD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A621A12284779300127CD4 /* LaunchScreen.storyboard in Resources */,
+				1D11098123996A220053C86D /* Main.storyboard in Resources */,
+				1D6000A72394794B00E63552 /* Default-568h@2x.png in Resources */,
+				52A6219E2284779300127CD4 /* Assets.xcassets in Resources */,
+				1D6000AB2396063200E63552 /* placeholderImage.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0182D491AABD37A40EF63D0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HolidayCalendar/Pods-HolidayCalendar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HolidayCalendar/Pods-HolidayCalendar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HolidayCalendar/Pods-HolidayCalendar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14B80BF206167AD2E34C1E0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HolidayCalendar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52A6218F2284779200127CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6000A9239484CC00E63552 /* AppDelegate.swift in Sources */,
+				1D6000A52394753C00E63552 /* PhotoRequest.swift in Sources */,
+				1D6000A82394848500E63552 /* PhotosTableViewController.swift in Sources */,
+				1D6000A12394733300E63552 /* Photo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52A6219A2284779200127CD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52A6219B2284779200127CD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52A6219F2284779300127CD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52A621A02284779300127CD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52A621A32284779300127CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52A621A42284779300127CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52A621A62284779300127CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D1FB562D6F74F0095919982 /* Pods-HolidayCalendar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/InstaRover/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.elizabethletourneau.InstaRover;
+				PRODUCT_NAME = InstaRover;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52A621A72284779300127CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 591884CC2AB4C3F9B4BE52A5 /* Pods-HolidayCalendar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/InstaRover/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.elizabethletourneau.InstaRover;
+				PRODUCT_NAME = InstaRover;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52A6218E2284779200127CD4 /* Build configuration list for PBXProject "InstaRover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A621A32284779300127CD4 /* Debug */,
+				52A621A42284779300127CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A621A52284779300127CD4 /* Build configuration list for PBXNativeTarget "HolidayCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A621A62284779300127CD4 /* Debug */,
+				52A621A72284779300127CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52A6218B2284779200127CD4 /* Project object */;
+}
